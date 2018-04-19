@@ -1,0 +1,25 @@
+微信方面：
+	1.微信公共账号
+	2.绑定域名（xiaoheihei.applinzi.com）(每月三次)
+	3.在需要使用JSSDK的文件引入js文件（http://....js）
+	4.配置config
+		4.1.把index.html修改为index.php
+		4.2.从下周的 sample.php 考走 <!DOCUTYPE html> 上面的PHP代码，放到index.php的上部
+		4.3.wx.config({})代码从sample.php中拷贝过来，注意修改jsApiList属性(需要的JSSDK的功能列表)
+		4.4.在wx.ready({})中处理需要实现的功能，例如：获取图片，打开扫一扫，获取定位。。。
+			4.4.1.需要的功能，直接去说明文档中查询
+		4.5.在wx.error({})中处理配置失败的情况
+
+新浪SAE方面：
+	1.账号，微博登录（身份验证）
+	2.创建应用
+	3.标准空间（不收费），应用名称
+	4.选择使用SVN管理代码（因为方便）
+	5.创建版本（第一个版本为1）
+	6.上传代码
+	7.如果需要少量修改代码，可以直接点击编辑代码
+
+特殊问题：
+	error_reporting(E_ERROR); （文件头部的php区域）
+
+  忽略的内容

@@ -1,0 +1,14 @@
+AppID: wxa962c595079a0a4c
+AppSecret: 8713885b0b21eef383171fa3d3c0dec5
+
+取得 ACCESS_TOKEN
+	https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=公众号AppID&secret=公众号AppSecret
+	https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxa962c595079a0a4c&secret=8713885b0b21eef383171fa3d3c0dec5
+
+	ACCESS_TOKEN: I5jMYbhOlGB-rSPV_UjUaDt9XT1Bf7rStd1FrwOsLYArGNSahgzzRHI8n-GAmByJqzFiaRLEaWUIIX4lhYJjnfnWvoaWjVckJ8vU5u3L0dFdkEmfaN02FRsrButlGZLVGIAiAFATVN
+取得jsapi_ticket
+	通过 https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=ACCESS_TOKEN&type=jsapi
+
+	https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=I5jMYbhOlGB-rSPV_UjUaDt9XT1Bf7rStd1FrwOsLYArGNSahgzzRHI8n-GAmByJqzFiaRLEaWUIIX4lhYJjnfnWvoaWjVckJ8vU5u3L0dFdkEmfaN02FRsrButlGZLVGIAiAFATVN&type=jsapi
+
+	jsapi_ticket: kgt8ON7yVITDhtdwci0qecRjMt12xDiqJiJPHWwSB5FvXtTBT4Y3rr-9KuJSXJRPNxCgVIB11izXy6WHnuBpQQ
